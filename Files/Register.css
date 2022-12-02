@@ -1,11 +1,9 @@
 
-/*Initialize Fonts universaly and background color. */
+/*Initialize Fonts universaly + box-sizing.*/
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 *{
     font-family: 'Outfit', sans-serif;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     
 }
@@ -16,6 +14,7 @@ body{
 }
 
 
+/*Setting up container to have a blue card effect */
 .container{
     max-width: 500px;
     width: 100%;
@@ -29,14 +28,36 @@ body{
 
 }
 
-.title{
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 25px;
+
+/* Makes image max-width to 65px and margin-top 25px and left 100px*/
+
+img{
+    max-width: 65px;
+    margin: 25px auto;
+    margin-left: 180px;
+}
+
+/* Makes Footer align center*/
+
+.footer{
     text-align: center;
+}
+
+
+/* Changes link color to white*/
+
+a{
     color: white;
 }
 
+
+
+
+
+
+/*//////////////////////////////////Labels and Inputs//////////////////////////////////*/
+
+/* Setting up flex container to align text and inputs + font changes.*/
 
 .input_field{
     margin-bottom: 15px;
@@ -46,35 +67,61 @@ body{
 }
 
 
+/* Align title center and change font related styles.*/
+
+.title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+}
+
+
+/* Setting Width to space label and inputs apart from each other + margin left to center.*/
+
 label{
     width: 200px;
     color: white;
-    margin-left: 20px;    
+    margin: auto;
+    margin-left: 7px;    
 }
+
+
+/* Max-width to 230px */
 
 .input{
     font-size: 18px;
-    max-width: 200px;
+    max-width: 230px;
 }
+
+
+/* Align text to center and add margin top to space content.*/
 
 .input_field_terms{
     margin-top: 50px;
-   text-align: center;
+    text-align: center;
     
 }
 
 
-
+/* Makes select the same size as inputs*/
 
 select{
-    width: 200px;
+    width: 230px;
     height: 30px;
 
 }
 
+/* Makes date the same size as inputs*/
+
 .date{
-    width: 200px;
+    width: 230px;
+    height: 30px;
 }
+
+
+/* Gives register button boxshadow + fixed width*/
 
 .reg{
   
@@ -87,19 +134,10 @@ select{
 
 }
 
-img{
-    max-width: 65px;
-    margin: 25px auto;
-    margin-left: 180px;
-}
-
-.footer{
-    
-    color: white;
-    text-align: center;
-}
+/*//////////////////////////////////Labels and Inputs//////////////////////////////////*/
 
 
-a{
-    color: white;
-}
+
+
+
+
