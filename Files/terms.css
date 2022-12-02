@@ -45,3 +45,11 @@ a{
     margin-left: 45px;
     color: white;
 }
+
+
+@media screen and (max-width: 680px){
+    .divbox{
+        height: 950px;
+    }
+    
+}

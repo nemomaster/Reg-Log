@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html>
+    <!--setting up basic html function and link css and favicon-->
     <head>
         <meta lang="en">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Register.</title>
+        <title>Login-Page</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Link icon for webpage in browser + CSS CODE-->
+        <link rel="icon" type="image/png" size="32x32" href="./images/icon.png">
         <link rel="stylesheet" href="Login.css">
     </head>
+
     <body>
+        <!-- Create container class to create a card effect and have all content within --> 
         <div class="container">
-            <img src="Images/cards.png">
+            <img src="Images/cards.png" alt="Cards of Aces">
             <div class="title">Login
 
             </div>
 
+            <!-- Create form class to have all form content within --> 
             <div class="form">
+                <form>
 
+                 <!-- Creates an Email input --> 
                 <div class="input_field">
                     <label>Email-Adress</label>
-                    <input type="text" class="input">
+                    <input type="text" class="input" required>
                 </div>
-              
+
+              <!-- Creates an Password input --> 
                 <div class="input_field">
                     <label>Password</label>
-                    <input type="password" class="input">
+                    <input type="password" class="input" required>
                 </div>
     
         
-    
-        
-
                 <div class="input_field">
-                   <form>
-                    <input type="submit" value="Login" class="reg">
-                   </form>
-                    
+                    <input type="submit" value="Login" class="login">
                 </div>
            
 
-            </div>
 
+                </form>
+
+
+            </div>
+            <!-- Creates an class to take user to Register-page --> 
             <div class="footer">
                 <a href="Register.html">Don't have an Account?</a>
             </div>
